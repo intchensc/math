@@ -30,13 +30,16 @@
 
 
 
+  
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="I miss xyz" />
+    <link href="/index.xml" rel="feed" type="application/rss+xml" title="I miss xyz" />
+  
+
 
   </head>
 
   <body>
     <nav class="navigation">
-	
-		<a href="/"> <span class="arrow">←</span>首页</a>
 	
 	<a href="/posts">归档</a>
 	<a href="/tags">标签</a>
@@ -52,25 +55,17 @@
 
     <main class="main">
       
+<header class="profile">
+    
+        <img class="avatar" alt="avatar" src="/images/avatar.png" />
+    
 
-<div id="page-404">
-  <div class="text">
-      
-          <h1>404</h1>
-      
+    <h1>I miss xyz</h1>
+    
+    
+</header>
 
-      
-          <div>页面不存在</div>
-      
-    </div>
-
-  
-      <h2 class="read-more">更多内容</h2> 
-  
-
-  
-
-
+<div id="list-page">
     
     
     
@@ -78,29 +73,35 @@
         
         <section class="item">
           <div>
-            <h1 class="title"><a href='/posts/markdown-syntax-guide/'>Markdown Syntax Guide</a></h1>   
-            <div class="date">3月 11, 2019</div>
+            <h1 class="title"><a href='/posts/emoji-support/'>Emoji Support</a></h1>
+            <div class ="date">
+                <time datetime="2019-03-05 00:00:00 &#43;0000 UTC">2019/03/05</time>  
+            </div>
           </div>
+
+          
+              <div class="summary">Emoji can be enabled in a Hugo project in a number of ways.
+</div>
+          
+
         </section>
     
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/posts/placeholder-text/'>Placeholder Text</a></h1>   
-            <div class="date">3月 9, 2019</div>
-          </div>
-        </section>
+
     
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/posts/math-typesetting/'>Math Typesetting</a></h1>   
-            <div class="date">3月 8, 2019</div>
-          </div>
-        </section>
+        <div class="pagination">
+          
+              <span class="prev">
+                  <a href="/">
+                      <span class="arrow">←</span> 下一页
+                  </a>
+            </span>
+          
+          
+          
+        </div>
     
+
+
 </div>
 
     </main>
